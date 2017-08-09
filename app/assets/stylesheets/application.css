@@ -18,6 +18,11 @@
 	height: 300px;
 	display:block;
 	margin:0 auto;
+	
+}
+
+.profile-img{
+	background-image: url("../images/0001.jpg");	
 
 }
 

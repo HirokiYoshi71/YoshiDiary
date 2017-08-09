@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 # 	get '/top' => 'home#top' 
 
 	root 'home#top'
-
+	get '/articles' => 'articles#index'
 end
