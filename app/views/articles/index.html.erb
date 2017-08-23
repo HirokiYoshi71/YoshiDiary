@@ -1,1 +1,10 @@
 <h1>投稿一覧</h1>
+
+<% @articles.each do |article| %>
+<p> title </p>
+<div><%= link_to article.title, '/articles/new'%></div>
+<p> body </p>
+<div><%= article.body %></div>
+<p> author </p>
+<div><%= article.author %></div>
+<% end %>
